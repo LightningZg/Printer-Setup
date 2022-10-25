@@ -1,12 +1,12 @@
 #! /bin/bash
 
-# mkdir -p /usr/share/fonts/myfonts
+# mkdir -p /usr/share/fonts/myFonts
 
-mv ./myfonts /usr/share/fonts
+mv ./myFonts /usr/share/fonts
 
-chmod 755 /usr/share/fonts/myfonts
+chmod 755 /usr/share/fonts/myFonts
 
-cd /usr/share/fonts/myfonts
+cd /usr/share/fonts/myFonts
 
 yum install -y fontconfig mkfontscale
 
